@@ -411,28 +411,46 @@
             <form class="form">
                 <h2 class="form-tittle">Залиште свої дані, ми вам передзвонимо</h2>
                 <div class="form-field">
-                <label class="form-label" for="name">Ім'я</label>
-                <input class="form-input" type="text" name="name" id="name" autofocus />
+                    <label class="form-label" for="name">Ім'я</label>
+                    <input class="form-input" type="text" name="name" id="name" autofocus />
+                    <svg class="form-icon">
+                         <use href="./images/icons.svg#person" width="18px" height="18px"></use>
+                </svg>
                 </div>
 
+                
                 <div class="form-field">
-                <label class="form-label" for="tel">Телефон</label>
-                <input class="form-input" type="tel" name="tel" id="tel"/>
+                    <label class="form-label" for="tel">Телефон</label>
+                    <input class="form-input" type="tel" name="tel" id="tel"/>
+                    <svg class="form-icon">
+                        <use href="./images/icons.svg#phone" width="18px" height="18px"></use>
+                </svg>
                 </div>
 
+                
+                
                 <div class="form-field">
-                <label class="form-label" for="mail">Пошта</label>
-                <input class="form-input" type="email" name="mail" id="mail"/>
+                    <label class="form-label" for="mail">Пошта</label>
+                    <input class="form-input" type="email" name="mail" id="mail"/>
+                    <svg class="form-icon">
+                        <use href="./images/icons.svg#email" width="18px" height="18px"></use>
+                </svg>
                 </div>
+                
 
                 <div>
-                <label class="form-label" for="comment">Коментар</label>
-                <textarea class="comments"  name="comment" id="comment" placeholder="Введіть текст"></textarea>
+                    <label class="form-label" for="comment">Коментар</label>
+                    <textarea class="comments"  name="comment" id="comment" placeholder="Введіть текст"></textarea>
                 </div>
 
                 <div class="form-checkbox">
-                <input  type="checkbox" name="argreed" value="argreed" id="argreed" checked>
-                <label  for="argreed">Погоджуюся з розсилкою та приймаю Умови договору</label>
+                    <input class="checkbox" type="checkbox" name="argreed" value="argreed" id="argreed" >
+                    <svg class="checkbox-icon">
+                        <use href="./images/icons.svg#check" ></use>
+                    </svg>
+                    <label  for="argreed">Погоджуюся з розсилкою та приймаю 
+                        <a href="">Умови договору</a>
+                    </label>
                 </div> 
                 
                 <button class="button-form" type="submit">Відправити</button>
